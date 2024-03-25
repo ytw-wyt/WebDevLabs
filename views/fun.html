@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta elements -->
+    <meta name="author" content="Yuting Wang">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Your name professional website">
+
+    <title>Yuting Wang</title>
+</head>
+
+<body onload=" addYear()">
+    <header>
+        <h1 id="webname">Yuting Wang</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href = "index.html">Home</a>
+            <a href = "cv.html">CV</a>
+            <a href = "contact.html">Contact Me</a>
+            <a href = "fun.html" class="active">For Fun</a>
+            <a href="javascript:void(0);" class="icon" >
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+              </a>
+        </nav>
+    </header>
+    <div class = "mainFun">
+        <div id="item1">
+        <h2>Things I love to do for fun</h2>
+        <!-- <button id="SeeMoreBTN" onclick="showList()">Click to see...</button> -->
+        <ul id="FavList">
+            <li>Singing</li>
+            <li>Dancing</li>
+            <li>Drawing</li>
+            <li>Traveling</li>
+            <li>Taking pictures</li>
+            <li>Playing and looking at cats</li>
+        </ul>
+        </div>
+        <div id="item2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pVgYZP1IK6k?si=MNfG1bo5BQO54rs2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div id="item3">
+            <h3>My favorite places</h3>
+
+           <!--The div element for the map -->
+
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6072.89722883022!2d-79.94542482395005!3d40.443206754027365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f21f58679a9f%3A0x88716b461fc4daf4!2sCarnegie%20Mellon%20University!5e0!3m2!1sen!2sus!4v1711392932336!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="item4">
+            <img id = "funIMG" src="../static/fun.JPG" alt="Fun" width="350px">
+        </div>
+    </div>
+
+    <footer>
+        <p id="copyYear"> Yuting Wang &copy</p>
+    </footer>
+</body>
+
+</html>

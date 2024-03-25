@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta elements -->
+    <meta name="author" content="Yuting Wang">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Your name professional website">
+    <title>Yuting Wang</title>
+</head>
+
+<body onload=" addYear()">
+    <header>
+        <h1 id="webname">Yuting Wang</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href = "index.html" class="active">Home</a>
+            <a href = "cv.html">CV</a>
+            <a href = "contact.html">Contact Me</a>
+            <a href = "fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon" >
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+              </a>
+        </nav>
+    </header>
+    <div class = "main">
+        <h2 id="greeting"></h2>
+        <img src="../static/photo_of_me.jpeg" alt="Yuting Wang profile image" class="classA" width="350px">
+        <div class="classA">
+            <span id="shortIntro">I am Yuting Wang, a sophomore at Carnegie Mellon University with a major in Information Systems and considering to minor in Computer Science. I am passionate about exploring the intersection of technology, business, and finance. Currently exploring opportunities to expand my skills and gain practical experience through internships in tech-related fields.</span>
+            <span id="readMore"> read more ...</span>
+            <span id="longIntro">I am Yuting Wang, a sophomore at Carnegie Mellon University with a major in Information Systems and considering to minor in Computer Science. I am passionate about exploring the intersection of technology, business, and finance. Currently exploring opportunities to expand my skills and gain practical experience through internships in tech-related fields. 
+                <br><br>
+                With a strong foundation in Information Systems and a passion for leveraging technology to drive innovation, I'm eager to dive into roles where I can contribute my analytical mindset, coding abilities, and collaborative spirit to my career. Whether it's developing software solutions, analyzing data to extract insights, or consulting on IT strategies, I'm excited to explore diverse opportunities and grow both personally and professionally.
+                <br><br>
+                Outside of academics, I love singing, dancing, drawing, and traveling. I have participated in choirs for more than ten years. I am currently a member of the CMU csharp choir. I also joined several finance clubs such as Smart Women Society and CMU Quant Club to explore my interests in finance.
+                </span>
+            <span id="readLess"> read less</span>
+            </div>
+        </div>
+    <footer>
+        <p id="copyYear"> Yuting Wang &copy</p>
+    </footer>
+</body>
+
+</html>
